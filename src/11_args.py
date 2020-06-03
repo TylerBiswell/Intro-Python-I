@@ -62,8 +62,10 @@ def f4(**args):
         #     print(f"key: {x[i]}, value: {y[i]}")
 
 
-    print({f"key: {k}, value: {v}" for (k,v) in args.items()})
+    #print({f"key: {k}, value: {v}" for (k,v) in args.items()})
 
+        for k, v in args.items():
+            print(f"key: {k}, value: {v}")
 
 
 # Should print
